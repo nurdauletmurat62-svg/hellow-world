@@ -8,6 +8,8 @@ on:
 jobs:
   docker-test:
   runs-on: Chechkout repository
+  steps:
+  name: Checkout repository
   uses: actions/checkout@v4
 
   name:Build Docker image
